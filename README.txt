@@ -1,3 +1,7 @@
+txt-to-yaml is a text processing script for a particular format of text data.
+the script reads the text file line by line.
+converter.py parses the text from file requirements/a6061-t6.mat.txt and outputs YAML from the processed data.
+
 Get the latest python from https://www.python.org/
 
 remember to check the ADD TO PATH option from the installer window 
