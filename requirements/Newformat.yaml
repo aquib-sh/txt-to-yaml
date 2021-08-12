@@ -1,0 +1,911 @@
+materials:
+  Aluminum 6061-T6:
+    Hash: N/A
+    Parent Hash: N/A
+    Last Revision: N/A
+    Keywords:
+      - N/A
+    Basic Information:
+      Mats&EOS:
+        Material Types:
+          MTYP 10 Isotropic-Elastic-Plastic-Hydrodynamic:
+            Title: Aluminum_6061-T6_Elastic_Plastic_Hydro
+            MID: a6061T6_HY
+            Density: 2.703
+          MTYP 11 Steinberg-Guinan High Rate Elastic-Plastic:
+            Title: Aluminum_6061-T6_Steinberg_Guinan
+            MID: a6061T6_SG
+            Denisty: 2.703
+          MTYP 13 Elastic-Plastic with Failure:
+            Title: Aluminum_6061-T6_Elastic_Plastic
+            MID: a6061T6_EP
+            Density: 2.703
+          MTYP 15 Johnson/Cook Elastic Plastic:
+            Title: Aluminum_6061-T6_Johnson_Cook
+            MID: a6061T6_JC
+            Density: 2.703
+          MTYP 45 MossFrac Material Model:
+            Title: Aluminum_6061-T6_MossFrac
+            MID: a6061T6_MF
+            Density: 2.703
+        EOS Types:
+          Type 1 Linear Polynomial:
+            Title: Aluminum_6061-T6_Linear_Polynominal
+            EOSID: a6061T6_LP
+          Type 4 Mie Gruneisen:
+            Title: Aluminum_6061-T6_Mie_Gruneisen
+            EOSID: a6061T6_MG
+          Type 16 Sesame:
+            Title: Aluminum_6061-T6_Sesame
+            EOSID: a6061T6_SE
+      Tensile Strength (Ultimate):
+        Value:
+          - N/A
+        Notes:
+          '1': N/A
+        Distributable:
+          Value: N/A
+          Note: N/A
+        Restrictions: N/A
+        Sensitivity: N/A
+        Tensile Strength (Yield):
+          Value:
+            - N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Elongation at Break:
+          '1': N/A
+          Value:
+            - N/A
+          Notes: null
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Youngs Modulus:
+          '1': N/A
+          Value: N/A
+          Notes: null
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Shear Modulus:
+          '1': N/A
+          Value: N/A
+          Notes: null
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Poissons Ratio:
+          '1': N/A
+          Value: N/A
+          Notes: null
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Fatigue Strength:
+          '1': N/A
+          Value: N/A
+          Notes: null
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Fracture Toughness:
+          '1': N/A
+          Value: N/A
+          Notes: null
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+      Thermal:
+        Coefficient of Thermal Expansion (Linear):
+          Value:
+            - N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Specific Heat Capacity:
+          Value: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Thermal Conductivity:
+          Value: N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Melting Point:
+          Value:
+            - N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Solidus:
+          Value: N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Liquidus:
+          Value: N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+        Thermal Tables:
+          Specific Heat Capacity:
+            Default:
+              Value:
+                - N/A
+              Hash: N/A
+              Parent Hash: N/A
+              Last Revision: N/A
+              Application:
+                - N/A
+              Verification:
+                Description: N/A
+                Quality: N/A
+              Distributable:
+                Value: N/A
+                Note: N/A
+              Restrictions: N/A
+              Sensitivity: N/A
+              References:
+                '1': N/A
+          Conductivity:
+            Default:
+              Value:
+                - N/A
+              Hash: N/A
+              Parent Hash: None
+              Last Revision: N/A
+              Application:
+                - N/A
+              Verification:
+                Description: N/A
+                Quality: N/A
+              Distributable:
+                Value: N/A
+                Note: N/A
+              Restrictions: N/A
+              Sensitivity: N/A
+              References:
+                '1': N/A
+          Emissivity:
+            Default:
+              Value:
+                - N/A
+              Hash: N/A
+              Parent Hash: N/A
+              Last Revision: N/A
+              Application:
+                - BMD
+                - AWS
+              Verification:
+                Description: N/A
+                Quality: N/A
+              Distributable:
+                Value: N/A
+                Note: N/A
+              Restrictions: N/A
+              Sensitivity: N/A
+              References:
+                '1': N/A
+      Other:
+        Constituents:
+          Aluminum: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+      References:
+        '1': N/A
+      Isotropic Elastic Plastic Hydrodynamic:
+        Default:
+          Shear Modulus:
+            Value: 276000000000
+            Symbol: g
+          Yield Stress:
+            Value: 2.76e9 barye
+            Symbol: sigy
+          Plastic Modulus:
+            Value: 5.702e9 barye
+            Symbol: ep
+          Pressure Cut Off:
+            Value: -1e+30
+            Symbol: pc
+          Linear Pressure Hardening Coefficient:
+            Value: 0
+            Symbol: a1
+          Quadratic Pressure Hardening Coefficient:
+            Value: 0.0 1/barye
+            Symbol: a2
+          Spall model:
+            Value: 2
+            Symbol: ispall
+          Effective Plastic Strain at Failure:
+            Value: 0.6
+            Symbol: fs
+          Element Deletion Flag for Plastic Strain:
+            Value: 1
+            Symbol: epflag
+          Element Deletion Flag for Spall:
+            Value: 1
+            Symbol: sflag
+          Tabulated Effective Plastic Strain:
+            Value:
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+            Symbol: eps(1-16)
+          Tabulated Yield Stress:
+            Value:
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+              - 0.0 barye
+            Symbol: es(1-16)
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      Steinberg-Guinan High Rate Elastic-Plastic:
+        Default:
+          Shear Modulus Constant:
+            Value: 176000000000
+            Symbol: G0
+          Yield Stres Constant:
+            Value: 2900000000
+            Symbol: sigma0
+          Strain Hardening Law Constant:
+            Value: 125
+            Symbol: beta
+          Strain Hardening Law Exponent:
+            Value: 0.1
+            Symbol: 'n'
+          Initial Plastic Strain:
+            Value: 0
+            Symbol: gammai
+          Deletion Flag for Plastic Strain (Failure):
+            Value: 1
+            Symbol: epsflag
+          Deletion Flag for Plastic Strain (Spall):
+            Value: 1
+            Symbol: sflag
+          Deletion Flag for Volumetric Strain:
+            Value: 0
+            Symbol: volfflag
+          Yield Stress Work Hardening Limit:
+            Value: 0
+            Symbol: sigmam
+          Shear Modulus Pressure Constant:
+            Value: 0
+            Symbol: b
+          Yield Stress Pressure Constant:
+            Value: 0
+            Symbol: bprime
+          Energy Coefficient:
+            Value: 0
+            Symbol: h
+          Energy Exponential Coefficient:
+            Value: 0
+            Symbol: f
+          Atomic Weight:
+            Value: 27
+            Symbol: A
+          Melting Temperature:
+            Value: 1220
+            Symbol: Tm0
+          Thermodynamic Gamma:
+            Value: 1.97
+            Symbol: gamma0
+          Thermodynamic Constant:
+            Value: 1.5
+            Symbol: a
+          Pressure Cutoff:
+            Value: -1e+30
+            Symbol: pcut
+          Room Temperature:
+            Value: 293
+            Symbol: Troom
+          Debye Coefficient:
+            Value: 0
+            Symbol: Debye
+          Volumetric Strain at Failure:
+            Value: 0
+            Symbol: fvol
+          Spall Model:
+            Value: 2
+            Symbol: ispall
+          Gas Atomic:
+            Value: 8320000
+            Symbol: Rprime
+          Effective Plastic Strain at Failure:
+            Value: 0.6
+            Symbol: fstrain
+          Polynomial order for fit:
+            Value: 0
+            Symbol: nfit
+          Cold Compression energy polynomial flag:
+            Value: 0
+            Symbol: ivar
+          Optional Minimum Limit for Energy Fit:
+            Value: 0
+            Symbol: minl
+          Optional Maximum Limit for Energy Fit:
+            Value: 0
+            Symbol: maxl
+          Cold Compression Polynomial Coefficient:
+            Value:
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+            Symbol: ec(0-9)
+          Beta Strain:
+            Value: 10
+            Symbol: beta_strai
+          Eta Strain:
+            Value: 0.6
+            Symbol: eta_strain
+          Beta Pcut:
+            Value: 30
+            Symbol: beta_pcut
+          Eta Pcut:
+            Value: 12000000000
+            Symbol: eta_pcut
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      Elastic Plastic with Failure:
+        Default:
+          Shear Modulus:
+            Value: 276000000000
+            Symbol: smod
+          Yield Stress:
+            Value: 2760000000
+            Symbol: sigy
+          Tangent Modulus:
+            Value: 5658000000
+            Symbol: etan
+          Effective Plastic Strain at Failure:
+            Value: 0.6
+            Symbol: fs
+          Failure Pressure:
+            Value: -1e+30
+            Symbol: fp
+          Bulk Modulus:
+            Value: 719800000000
+            Symbol: bulk
+          Element Deletion Flag for Plastic Strain:
+            Value: 1
+            Symbol: epflag
+          Pressure Based Element Deletion:
+            Value: 1
+            Symbol: pflag
+          Initial Temperature:
+            Value: 298
+            Symbol: temp0
+          Cp:
+            Value: 8850000
+            Symbol: Cp
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Notes:
+            '1': N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      Johnson Cook Elastic Plastic:
+        Default:
+          Shear Modulus:
+            Value: 276000000000
+            Symbol: smod
+          Yield Stress Constant:
+            Value: 3.243e9 barye
+            Symbol: a
+          Strain Hardening Coefficient:
+            Value: 1.139e9 barye
+            Symbol: b
+          Strain Hardening Exponent:
+            Value: 0.42
+            Symbol: 'n'
+          Strain Rate Dependence Coefficient:
+            Value: 0.002
+            Symbol: c
+          Temperature Dependence Exponent:
+            Value: 1.34
+            Symbol: m
+          Melt Temperature:
+            Value: 9.5e2 K
+            Symbol: tm
+          Room Temperature:
+            Value: 2.93e2 K
+            Symbol: tr
+          Reference Strain Rate:
+            Value: 1
+            Symbol: epso
+          Specific Heat:
+            Value: 8850000
+            Symbol: cp
+          Pressure Cutoff:
+            Value: -1e+30
+            Symbol: pcut
+          Spall Model:
+            Value: 2
+            Symbol: ispall
+          Plastic Strain Iteration Flag:
+            Value: 0
+            Symbol: iter
+          Element Deletion Flag for Spall:
+            Value: 1
+            Symbol: sflag
+          Damage Constant 1:
+            Value: -0.77
+            Symbol: d1
+          Damage Constant 2:
+            Value: 1.45
+            Symbol: d2
+          Damage Constant 3:
+            Value: -0.47
+            Symbol: d3
+          Damage Constant 4:
+            Value: 0
+            Symbol: d4
+          Damage Constant 5:
+            Value: 1.6
+            Symbol: d5
+          Element Deletion Flag for Damage:
+            Value: 1
+            Symbol: dflag
+          Weibull Shape Parameter:
+            Value: 2
+            Symbol: beta
+          Weibull Scale Parameter:
+            Value: 1.03
+            Symbol: eta
+          Failure Strain Cut Off:
+            Value: 0.3
+            Symbol: eps_0
+          Weibull Distribution Option:
+            Value: 0
+            Symbol: switch
+          Weibull Disbtribution Seed:
+            Value: 0
+            Symbol: Seed
+          Youngs Modulus:
+            Value: 7.34e11 barye
+            Symbol: ymod
+          Poissons Ratio:
+            Value: 0.33
+            Symbol: pr
+          Time Step Size for Element Deletion:
+            Value: 0
+            Symbol: dtf
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      MossFrac Material Model:
+        Default:
+          Shear Modulus:
+            Value: 259000000000
+            Symbol: G0
+          Yield Stress:
+            Value: 2550000000
+            Symbol: sigma0
+          Strain Hardening Law Constant:
+            Value: 125
+            Symbol: beta
+          Strain hardening Component:
+            Value: 0.1
+            Symbol: 'n'
+          Initial Plastic Strain:
+            Value: 0
+            Symbol: gammai
+          Yield Stress Work Hardening Limit:
+            Value: 6800000000
+            Symbol: sigmam
+          Shear Modulus Pressure Constant:
+            Value: 6.52e-12
+            Symbol: b
+          Yield Stress Pressure Constant:
+            Value: 6.52e-12
+            Symbol: bprime
+          Energy Efficient:
+            Value: 0.000616
+            Symbol: h
+          Energy Exponential Coefficient:
+            Value: 0
+            Symbol: f
+          Atomic Weight:
+            Value: 27
+            Symbol: A
+          Melting Temperature Constant:
+            Value: 1220
+            Symbol: Tm0
+          Thermodynamic Gamma:
+            Value: 1.97
+            Symbol: gamma0
+          Thermodynamic Constant:
+            Value: 1.5
+            Symbol: a
+          Tensile Strength:
+            Value: 6000000000
+            Symbol: ten_str
+          Gas Constant:
+            Value: 8329000
+            Symbol: Rprime
+          Shear Strain Limit for Cracking:
+            Value: 0.226
+            Symbol: eps_crack
+          Cold Compression Enegy Polynomial Flag:
+            Value: 0
+            Symbol: ivar
+          Optional minimum limit for energy fit:
+            Value: 0
+            Symbol: minl
+          Optional maximum limit for energy fit:
+            Value: 0
+            Symbol: maxl
+          Cold Compression Polynomial Coefficients:
+            Value:
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+              - 0
+            Symbol: ec(0-9)
+          Plastic Strain Deletion Flag:
+            Value: 0
+            Symbol: epsflag
+          Volume Deletion Flag:
+            Value: 1
+            Symbol: volflag
+          Plastic Strain Limit for Deletion:
+            Value: 0
+            Symbol: eps_del
+          Relative Volume Limit for Deletion:
+            Value: 1.6
+            Symbol: vol_del
+          Room Temperature:
+            Value: 293
+            Symbol: Troom
+          Always 0:
+            Value: 0
+            Symbol: Debye
+          Shear Failure Flag:
+            Value: 1
+            Symbol: wys
+          Tensil Fauilure Flag:
+            Value: 1
+            Symbol: wyt
+          Weibull Distribution Parameter:
+            Value: 9.15
+            Symbol: wm
+          Not Used:
+            Value: 0
+            Symbol: wseed
+          Friction:
+            Value: 0
+            Symbol: friction
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      Linear Polynomial:
+        Default:
+          Pressure Constant:
+            Value: 0.0 barye
+            Symbol: C0
+          Linear Compression Coefficient:
+            Value: 7.42e11 barye
+            Symbol: C1
+          Quadratic Compression Coefficient:
+            Value: 6.05e11 barye
+            Symbol: C2
+          Cubic Compression Coefficient:
+            Value: 3.65e11 barye
+            Symbol: C3
+          First Energy Coefficient:
+            Value: 1.96
+            Symbol: C4
+          Second Energy Coefficent:
+            Value: 0
+            Symbol: C5
+          Third Energy Coefficient:
+            Value: 0
+            Symbol: C6
+          Initial Internal Energy:
+            Value: 0.0 barye
+            Symbol: E0
+          Initial Relative Volume:
+            Value: 1
+            Symbol: V0
+          Initial Temperature:
+            Value: 298
+            Symbol: T0
+          Specific Heat:
+            Value: 8850000
+            Symbol: Cp
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      Mie Gruniesen:
+        Default:
+          Bulk Sound Speed:
+            Value: 5.24e5 cm/s
+            Symbol: C
+          Linear Slope Coefficient:
+            Value: 1.4
+            Symbol: S1
+          Quadratic Slope Coefficient:
+            Value: 0
+            Symbol: S2
+          Cubic Slope Coefficient:
+            Value: 0
+            Symbol: S3
+          Gruneisen Coefficient:
+            Value: 1.97
+            Symbol: Gamma
+          First Order Volume Correction Coefficient:
+            Value: 0.48
+            Symbol: a
+          Initial Internal Energy:
+            Value: 0.0 barye
+            Symbol: E0
+          Initial Relative Volume:
+            Value: 1
+            Symbol: V0
+          Initial alpha value:
+            Value: 0
+            Symbol: alpha0
+          Pressure for complete compaction:
+            Value: 0
+            Symbol: Ps
+          Maximum elastic pressure:
+            Value: 0
+            Symbol: Pe
+          Elastic sound speed:
+            Value: 0
+            Symbol: Ce
+          Iteration method:
+            Value: 0
+            Symbol: Ie
+          Specfic Heat:
+            Value: 8850000
+            Symbol: Cp
+          Initial Density:
+            Value: 2.703
+            Symbol: rho0
+          Initial Temperature:
+            Value: 298
+            Symbol: T0
+          Cold-Curve parameter1:
+            Value: 0
+            Symbol: B
+          Cold-Curve parameter2:
+            Value: 1
+            Symbol: mu_star
+          Cold-Curve parameter3:
+            Value: 2
+            Symbol: 'N'
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A
+      SESAME:
+        Default:
+          file: /opt/Software/Velodyne/Data/SESAME/aAluminum3700.ses
+          Table Density Unit Conversion:
+            Table units: g/cc
+            Problem units: g/cc
+            Symbol: runit
+            Value: 1
+          Table Pressure Unit Conversion:
+            Table units: GPa
+            Problem units: barye
+            Symbol: punit
+            Value: 10000000000
+          Table Energy Unit Conversion:
+            Table units: MJ/kg
+            Problem units: erg/g
+            Symbol: eunit
+            Value: 10000000000
+          Pressure Offset Switch:
+            Value: 1
+            Symbol: poff
+          Initial Temperature:
+            Value: 294
+            Symbol: t0
+          Initial Denisty:
+            Value: 2.703
+            Symbol: r0
+          Placeholder:
+            Value: 1
+            Symbol: rmin
+          Energy and Density Scaling Flag:
+            Value: 2
+            Symbol: sigma
+          Lower Temperature Bound Cut Off:
+            Value: 0.0 K
+            Symbol: Tmin
+          Lower Density Bound Cut Off:
+            Value: 0.0 g/cc
+            Symbol: Rmin
+          Upper Temperature Bound Cut Off:
+            Value: 0.0 K
+            Symbol: Tmax
+          Upper Density Bound Cut Off:
+            Value: 0.0 g/cc
+            Symbol: Rmax
+          Hash: N/A
+          Parent Hash: N/A
+          Last Revision: N/A
+          Application:
+            - N/A
+          Verification:
+            Description: N/A
+            Quality: N/A
+          Distributable:
+            Value: N/A
+            Note: N/A
+          Restrictions: N/A
+          Sensitivity: N/A
+          References:
+            '1': N/A

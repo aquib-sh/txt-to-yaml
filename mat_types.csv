@@ -1,0 +1,61 @@
+MTYP VALUE,TITLE
+1, Elastic
+2, Orthotropic Elastic
+3, Kinematic/Isotropic Elastic-Plastic
+4, Thermo-Elastic-Plastic
+5, Soil and Crushable Foam
+6, Viscoelastic
+7, Blatz-Ko Hyperelastic Rubber
+8, HE Burn
+9, Fluid
+10, Isotropic-Elastic-Plastic-Hydrodynamic
+11, Steinberg-Guinan High Rate Elastic-Plastic
+12, Isotropic-Elastic-Plastic
+13, Elastic-Plastic with Failure
+14, Soil and Crushable Foam with Failure
+15, Johnson/Cook Elastic Plastic
+16, Concrete/Geological Material
+17, Isotropic Elastic-Plastic with Oriented Cracks
+18, Power Law Isotropic Elastic-Plastic
+19, Strain Rate Dependent Isotropic Elastic-Plastic
+20, Rigid
+21, Thermal Orthotropic Elastic
+22, Fiber Composite With Damage
+23, Thermal Orthotropic Elastic with Variable Properties
+24, Rate Dependent Tabular Isotropic Elastic-Plastic
+25, Extended Two Invariant Geological Cap
+26, Metallic Honeycomb
+27, Compressible Mooney-Rivlin Hyperelastic Rubber
+28, Resultant Plasticity
+29, Mechanical-Threshold-Stress Model
+30, Closed-Form Update Elastic-Plastic for Shells
+31, Frazer-Nash Hyperelastic Rubber
+32, Ramberg-Osgood Elastic-Plastic
+33, General Anisotropic Elastic-Plastic
+34, Normal Anisotropic Elastic-Plastic for Shells
+35, Elastic-Plastic with Forming Limit Diagram
+36, Brittle Damage Model
+37, Three-Invariant Viscoplastic Cap Model
+38, Bammann Plasticity Model
+39, Sandia Damage Model
+40, Fahrenthold Brittle Damage
+42," Coupled Deformation, Damage and Chemical Reaction (CDAR)"
+43, Johnson Holmquist Ceramic
+44, Transversely Isotropic Hyperviscoelastic
+45, MossFrac Material Model
+46, Fu-Chang Foam
+47, Ogden Hyperelastic
+48, Ogden Foam
+49, Directional Ogden
+50, Non-linear Ogden Viscoelastic Rubber
+51, Ogden Foam Viscoelastic
+52, Simplified Johnson/Cook
+53, Holmquist-Johnson-Cook Concrete with Damage
+54, Johnson-Holmquist-Beissel (JHB) Ceramic Model
+55, Modified Johnson-Cook Strength Model
+56, Deformable High-explosive
+57, Directional Isotropic-Elastic-Plastic
+58, Directional Elastic-Plastic with Failure
+59, Transversely Isotropic Hyperviscoelastic with Hierarchical Failure
+60, Preston-Tonks-Wallace
+61, Johnson-Cook with Damage Table

@@ -1,0 +1,123 @@
+!--------------------------------------------------------------------------------------
+! Aluminum 6061-T6
+!--------------------------------------------------------------------------------------
+! References:
+! [1] K. Vahedi and N. Khazraiyan, "Numerical Modeling of Ballistic Penetration of Long Rods into Ceramic / Metal Armors," in 8th International LS-DYNA Users Conference, 2004, pp. 39-50.
+! [2] D. J. Steinberg, "Equation of State and Strength Properties of Selected Materials," UCRL-MA-106439, 1996.
+! [3] Aluminum 6061-T6; 6061-T651 (MaterialData_9388.pdf)
+! [4] CTH_VP_data_7.2
+
+! FS increased from quasi-static values of 0.157
+! pcut increased from original value of -1.20e10
+!--------------------------- MID       MTYP    Density   Title ------------------------
+ Material Definition: a6061T6_HY         10  2.703e+00   Aluminum_6061-T6_Elastic_Plastic_Hydro
+!        g       sigy         ep         pc         a1         a2     ispall      blank
+ 2.760e+11  2.760e+09  5.702e+09 -1.000e+30  0.000e+00  0.000e+00  2.000e+00          0
+!       fs     epflag      sflag      blank      blank      blank      blank      blank
+ 6.000e-01  1.000e+00  1.000e+00          0          0          0          0          0
+!     eps1       eps2       eps3       eps4       eps5       eps6       eps7       eps8
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!     eps9      eps10      eps11      eps12      eps13      eps14      eps15      eps16
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!      es1        es2        es3        es4        es5        es6        es7        es8
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!      es9       es10       es11       es12       es13       es14       es15       es16
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+
+! Weibull parameters estimated
+! FS increased from quasi-static values of 0.157
+! pcut increased from original value of -1.20e10
+!--------------------------- MID       MTYP    Density   Title ------------------------
+ Material Definition: a6061T6_SG         11  2.703e+00   Aluminum_6061-T6_Steinberg_Guinan
+!       G0     sigma0       beta          n     gammai    epsflag      sflag    volflag
+ 2.760e+11  2.900e+09  1.250e+02  1.000e-01  0.000e+00  1.000e+00  1.000e+00  0.000e+00
+!   sigmam          b     bprime          h          f      blank      blank      blank
+ 6.800e+09  6.520e-12  6.520e-12  6.160e-04  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!        A        Tm0     gamma0          a       pcut      Troom      Debye       fvol
+ 2.700e+01  1.220e+03  1.970e+00  1.500e+00 -1.000e+30  2.930e+02  0.000e+00  0.000e+00
+!   ispall     Rprime    fstrain       nfit       ivar       minl       maxl      blank
+ 2.000e+00  8.320e+06  6.000e-01  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!      ec0        ec1        ec2        ec3        ec4 beta_strai eta_strain      blank
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00 10.000e+00  6.000e-01  0.000e+00
+!      ec5        ec6        ec7        ec8        ec9  beta_pcut   eta_pcut      blank
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00 30.000e+00  1.200e+10  0.000e+00
+
+! FS increased from quasi-static values of 0.157
+! pcut increased from original value of -1.20e10
+!--------------------------- MID       MTYP    Density   Title -----------------
+ Material Definition: a6061T6_EP         13  2.703e+00   Aluminum_6061-T6_Elastic_Plastic
+!     smod       sigy       etan         fs         fp
+ 2.760e+11  2.760e+09  5.658e+09  6.000e-01 -1.000e+30
+!     bulk
+ 7.198e+11
+!    eflag      pflag
+ 1.000e+00  1.000e+00
+!    temp0         Cp
+     298.0  8.850e+06
+!    blank
+         0
+!    blank
+         0
+
+! Weibull parameters estimated
+! pcut increased from original value of -1.20e10
+!--------------------------- MID       MTYP    Density   Title ------------------------
+ Material Definition: a6061T6_JC         15  2.703e+00   Aluminum_6061-T6_Johnson_Cook
+!     smod          a          b          n          c          m         tm         tr
+ 2.760e+11  3.243e+09  1.139e+09  4.200e-01  2.000e-03  1.340e+00  9.500e+02  2.930e+02
+!     epso         cp       pcut     ispall       iter      sflag
+ 1.000e+00  8.850e+06 -1.000e+30  2.000e+00  0.000e+00  1.000e+00
+!       d1         d2         d3         d4         d5      dflag
+-0.770e+00  1.450e+00 -0.470e+00  0.000e+00  1.600e+00  1.000e+00
+!     beta        eta      eps_0     Switch       Seed
+     2.000      0.103      0.300        0.0        0.0
+!    blank              
+       0.0 
+!     ymod         pr        dtf
+ 7.342e+11  0.330e+00  0.000e+00
+
+! Weibull and failure parameters estimated
+! G0, sigma0, ten_str, eps_crack changed based on performance in spaced plates test comparison
+!--------------------------- MID       MTYP    Density   Title ------------------------
+ Material Definition: a6061T6_MF         45  2.703e+00   Aluminum_6061-T6_MossFrac
+!       G0     sigma0       beta          n     gammai     sigmam          b     bprime
+ 2.590e+11  2.550e+09  1.250e+02  1.000e-01  0.000e+00  6.800e+09  6.520e-12  6.520e-12
+!        h          f          A        Tm0     gamma0          a    ten_str      blank
+ 6.160e-04  0.000e+00  2.700e+01  1.220e+03  1.970e+00  1.500e+00  6.000e+09  0.000e+00
+!   Rprime  eps_crack      blank       ivar       minl       maxl        ec0        ec1
+ 8.329e+06  0.226e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!      ec2        ec3        ec4        ec5        ec6        ec7        ec8        ec9
+ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+!  epsflag      blank    volflag    eps_del    vol_del      Troom      Debye        wys
+ 0.000e+00  0.000e+00  1.000e+00  0.000e+00  1.600e+00  2.930e+02  0.000e+00  1.000e+00
+!      wyt         wm      wseed   friction      blank      blank      blank      blank
+ 1.000e+00  9.150e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+
+!------------------------- EOSID     EOSTYP      Title --------------------------------
+ EOS definition:      a6061T6_LP          1      Aluminum_6061-T6_Linear_Polynominal
+!       C0         c1         c2         c3         c4         c5         c6         e0
+ 0.000e+00  7.420e+11  6.050e+11  3.650e+11  1.960e+00  0.000e+00  0.000e+00  0.000e+00
+!       v0
+       1.0
+!       T0         Cp
+     298.0  8.850e+06
+
+!------------------------- EOSID     EOSTYP      Title --------------------------------
+ EOS definition:      a6061T6_MG          4      Aluminum_6061-T6_Mie_Gruneisen
+!        C         s1         s2         s3      gamma          a         e0         v0
+ 5.240e+05  1.400e+00  0.000e+00  0.000e+00  1.970e+00  0.480e+00  0.000e+00  1.000e+00
+!   alpha0         Ps         Pe         Ce         Ie
+       0.0        0.0        0.0        0.0        0.0
+!       Cp       rho0         T0          B    mu_star          N
+ 8.850e+06  2.703e+00      298.0        0.0        1.0          2
+
+!------------------------- EOSID     EOSTYP      Title --------------------------------
+ EOS definition:      a6061T6_SE         16      Aluminum_6061-T6_Sesame
+!   Table Path and Filename
+ /opt/Software/Velodyne/Data/SESAME/aAluminum3700.ses
+!     runit     punit     eunit      poff
+        1.0   1.0e+10   1.0e+10       1.0
+!        t0        r0      rmin     sigma
+      298.0 2.703e+00       1.0       2.0
+!      Tmin      Rmin      Tmax      Rmax
+        0.0       0.0       0.0       0.0
